@@ -1,0 +1,18 @@
+/*..................nav_ul>.nav_li>a:not(.not-after)::after........................*/
+@keyframes link-after{
+    0%{
+        margin-top: 6px;
+    }
+    100%{
+        margin-top: 4px;
+    }
+}
+/*.........................sec_deals_service .sec_deals_service_item .ser_img.........*/
+@keyframes ser_img{
+    0%{
+        transform: rotate(-deg) scale(1.05);
+    }
+    100%{
+        transform: rotate(2deg) scale(1);
+    }
+}

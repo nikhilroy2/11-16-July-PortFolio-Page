@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>This is site title</title>
+    <!--.............................Title Favicon............................-->
+    <link rel="shortcut icon" type="image/x-icon" href="image/support-1.png">
+    <!--............Main Css................-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--............Responsive Css................-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--...........Animation Css................-->
+    <link rel="stylesheet" href="css/animation.css">
+    <!--............FontAwesome Icon Css................-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+</head>
+
+<body>
+    <!--...................................Go To Top Button.........................-->
+    <div class="go_top">
+        <a href="#"><i class="fas fa-angle-double-up"></i></a>
+    </div>
+    <!--.....................................Header.............................-->
+    <header>
+        <nav>
+            <div class="site_icon">
+                <a href="#">
+                    <img src="image/logo.png" alt="">
+                </a>
+            </div>
+            <!--.......................Responsive Checkbox.........................-->
+            <input type="checkbox" id="nav_ul_input_wrapper" class="nav_ul_input_wrapper">
+            <ul class="nav_ul">
+                <li class="nav_li home_list">
+                    <a href="" target="" id="home">Home
+                    </a>
+                    <!--....................nav_ul_plus_checkbox_home.................-->
+
+                    <input type="checkbox" id="nav_ul_plus_checkbox_home" class="nav_ul_plus_checkbox_home">
+                    <label for="nav_ul_plus_checkbox_home" class="nav_ul_plus_checkbox_label"><i id="plus_icon"
+                            class="fas fa-plus"></i>
+                        <i id="minus_icon" class="fas fa-minus"></i>
+                    </label>
+                    <ul class="home_dropdown_menu">
+                        <li class="home_dropdown_item"><a href="#" class="">Home Version 1</a></li>
+                        <li class="home_dropdown_item"><a href="#" class="">Home Version 2</a></li>
+                        <li class="home_dropdown_item"><a href="#" class="">Home Version 3</a></li>
+                        <li class="home_dropdown_item"><a href="#" class="">Home Version 4</a></li>
+                        <li class="home_dropdown_item"><a href="#" class="">Home Version 5</a></li>
+                        <li class="home_dropdown_item"><a href="#" class="">Home Version 6</a></li>
+                        <li class="home_dropdown_item"><a href="#" class="">Home Version 7</a></li>
+                        <li class="home_dropdown_item"><a href="#" class="">Home Version 8</a></li>
+                        <li class="home_dropdown_item"><a href="#" class="">Home Version 9</a></li>
+                        <li class="home_dropdown_item"><a href="#" class="">Home Version 10</a></li>
+                    </ul>
+                </li>
+                <li class="nav_li shop_list">
+                    <a href="" id="shop">Shop</a>
+                    <!--....................nav_ul_plus_checkbox_shop.................-->
+                    <input type="checkbox" id="nav_ul_plus_checkbox_shop" class="nav_ul_plus_checkbox_shop">
+                    <label for="nav_ul_plus_checkbox_shop" class="nav_ul_plus_checkbox_label"><i id="plus_icon"
+                            class="fas fa-plus"></i>
+                        <i id="minus_icon" class="fas fa-minus"></i>
+                    </label>
+                    <div class="shop_dropdown_menu">
+                        <div class="layout1">
+                            <h5>SHOP LAYOUT</h5>
+                            <ul>
+                                <li><a href="#" class="">Standard Style</a></li>
+                                <li><a href="#" class="">Grid Filter Style</a></li>
+                                <li><a href="#" class="">Grid 2 Column</a></li>
+                                <li><a href="#" class="">Grid No Sidebar</a></li>
+                                <li><a href="#" class="">Grid Full Wide</a></li>
+                                <li><a href="#" class="">Grid Right Sidebar</a></li>
+                                <li><a href="#" class="">List 1 Column Box</a></li>
+                                <li><a href="#" class="">List 2 Column Full Wide</a></li>
+                                <li><a href="#" class="">List 2 Column Full Wide</a></li>
+                            </ul>
+                        </div>
+                        <div class="layout2">
+                            <h5>PRODUCT DETAILS</h5>
+                            <ul>
+                                <li><a href="#" class="">Tab Style 1</a></li>
+                                <li><a href="#" class="">Tab Style 2</a></li>
+                                <li><a href="#" class="">Tab Style 3</a></li>
+                                <li><a href="#" class="">Sticky Style</a></li>
+                                <li><a href="#" class="">Gallery Style</a></li>
+                                <li><a href="#" class="">Slider Style</a></li>
+                                <li><a href="#" class="">Affiliate Style</a></li>
+                                <li><a href="#" class="">Fixed Image Style</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="layout3">
+                            <img src="image/banner-12.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li" id="collection">
+                    <a href="" id="collection" class="not-after">Collection</a>
+                </li>
+                <li class="nav_li pages_list">
+                    <a href="" id="pages">Pages</a>
+                    <!--....................nav_ul_plus_checkbox_pages.................-->
+                    <input type="checkbox" id="nav_ul_plus_checkbox_pages" class="nav_ul_plus_checkbox_pages">
+                    <label for="nav_ul_plus_checkbox_pages" class="nav_ul_plus_checkbox_label"><i id="plus_icon"
+                            class="fas fa-plus"></i>
+                        <i id="minus_icon" class="fas fa-minus"></i>
+                    </label>
+                    <ul class="pages_dropdown_menu">
+                        <li class="pages_dropdown_item"><a href="#" class="">About Us</a></li>
+                        <li class="pages_dropdown_item"><a href="#" class="">Cart Page</a></li>
+                        <li class="pages_dropdown_item"><a href="#" class="">Checkout</a></li>
+                        <li class="pages_dropdown_item"><a href="#" class="">Wishlist</a></li>
+                        <li class="pages_dropdown_item"><a href="#" class="">My Account</a></li>
+                        <li class="pages_dropdown_item"><a href="#" class="">Login/Register</a></li>
+                        <li class="pages_dropdown_item"><a href="#" class="">Contact Us</a></li>
+                    </ul>
+                </li>
+                <li class="nav_li blog_list">
+                    <a href="" id="blog">Blog</a>
+                    <!--....................nav_ul_plus_checkbox_blog.................-->
+                    <input type="checkbox" id="nav_ul_plus_checkbox_blog" class="nav_ul_plus_checkbox_blog">
+                    <label for="nav_ul_plus_checkbox_blog" class="nav_ul_plus_checkbox_label"><i id="plus_icon"
+                            class="fas fa-plus"></i>
+                        <i id="minus_icon" class="fas fa-minus"></i>
+                    </label>
+                    <ul class="blog_dropdown_menu">
+                        <li class="blog_dropdown_item"><a href="#" class="">Blog Standard</a></li>
+                        <li class="blog_dropdown_item"><a href="#" class="">Blog No Sidebar</a></li>
+                        <li class="blog_dropdown_item"><a href="#" class="">Blog Right Sidebar</a></li>
+                        <li class="blog_dropdown_item"><a href="#" class="">Blog Details 1</a></li>
+                        <li class="blog_dropdown_item"><a href="#" class="">Blog Details 2</a></li>
+                        <li class="blog_dropdown_item"><a href="#" class="">Blog Details 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav_li">
+                    <a href="" id="about" class="not-after">About</a>
+                </li>
+                <li class="nav_li">
+                    <a href="" id="contact" class="not-after">Contact</a>
+                </li>
+            </ul>
+            <div class="nav_looking">
+                <input type="checkbox" class="search" id="search">
+                <input type="checkbox" class="user" id="user">
+                <input type="checkbox" class="love" id="love">
+                <input type="checkbox" class="cart" id="cart">
+                <label id="search" class="nav_looking_label1" for="search"><i class="fas fa-search"></i>
+                    <div class="search_option">
+                        <input type="search" placeholder="Search">
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+                </label>
+                <label id="user" class="nav_looking_label2" for="user"><i class="far fa-user-circle"></i>
+                    <ul class="label2_dropdown_menu">
+                        <li class="label2_dropdown_item"><a href="#" class="">Login</a></li>
+                        <li class="label2_dropdown_item"><a href="#" class="">Register</a></li>
+                        <li class="label2_dropdown_item"><a href="#" class="">Wishlist</a></li>
+                        <li class="label2_dropdown_item"><a href="#" class=""> My Account</a></li>
+                    </ul>
+                </label>
+                <label id="love" class="nav_looking_label3" for="love"> <a style="color: inherit; font-size: 18px;"
+                        href=""> <i class="fas fa-heart"></i></a></label>
+                <label id="cart" class="nav_looking_label4" for="cart"><i class="fas fa-align-right"></i> <span
+                        id="up-span">2</span>
+                    <div class="label4_dropdown_menu">
+                        <input type="checkbox" id="label4_box1" class="label4_box1">
+                        <input type="checkbox" id="label4_box2" class="label4_box2">
+                        <div class="label4_item_box1">
+                            <div class="item_box_child1"> <a href="#"><img src="image/cart-1.png" alt=""></a></div>
+                            <div class="item_box_child2">
+                                <label for="label4_box1"> &times;</label>
+                                <a href="#"> T-Shart & Jeans</a>
+                                <span id="qty">Qty: 2</span>
+                                <strong style="font-size: 15px; font-weight: normal;">$260.00</strong>
+                            </div>
+
+                        </div>
+                        <div class="label4_item_box2">
+                            <div class="item_box_child1"> <a href="#"><img src="image/cart-2.png" alt=""></a></div>
+                            <div class="item_box_child2">
+                                <label for="label4_box2"> &times;</label>
+                                <a href="#">T-Shart & Jeans</a>
+                                <span id="qty">Qty: 2</span>
+                                <strong style="font-size: 15px; font-weight: normal;">$260.00</strong>
+                            </div>
+                        </div>
+                        <div class="shipping">
+                            <p>Shipping: <span style="float: right;">$20.00</span></p>
+                        </div>
+                        <div class="shipping">
+                            <p> Total: <span style="float: right;">$260.00</span></p>
+                        </div>
+                        <a href="#" class="view_cart">View Cart</a>
+                        <a href="#" class="checkout">Checkout</a>
+                    </div>
+                </label>
+                <label class="nav_ul_input_wrapper_label" for="nav_ul_input_wrapper"><i class="fa fa-bars"></i></label>
+            </div>
+        </nav>
+    </header>
+    <!--..........................................Section Carousel..................-->
+    <section class="sec_carousel">
+        <input type="radio" id="i1" name="image" checked>
+        <input type="radio" id="i2" name="image">
+        <input type="radio" id="i3" name="image">
+        <input type="radio" id="i4" name="image">
+        <div class="slide_img" id="one">
+            <div class="inner_wrapper" style="background: hsla(240, 100%, 50%,.2);">
+                <div class="inner_wrapper_txt">
+                    <h3>Smart Products</h3>
+                    <h1>Summer Offer <br> 2019 Collection</h1>
+                    <a href="#" class="shop_now_link">Shop Now</a>
+                </div>
+                <div class="inner_wrapper_img"> <img src="image/single-slide-1.png" alt=""> </div>
+            </div>
+            <label for="i4" class="prev">
+                <span></span><span></span>
+            </label>
+            <label for="i2" class="next">
+                <span></span><span></span>
+            </label>
+        </div>
+        <div class="slide_img" id="two">
+            <div class="inner_wrapper" style="background: hsla(34, 44%, 69%,.2);">
+                <div class="inner_wrapper_txt">
+                    <h3>Smart Products</h3>
+                    <h1>Summer Offer <br> 2019 Collection</h1>
+                    <a href="#" class="shop_now_link">Shop Now</a>
+                </div>
+                <div class="inner_wrapper_img"> <img src="image/single-slide-hm1-2.png" alt=""> </div>
+            </div>
+            <label for="i1" class="prev">
+                <span></span><span></span>
+            </label>
+            <label for="i3" class="next">
+                <span></span><span></span>
+            </label>
+        </div>
+        <div class="slide_img" id="three">
+            <div class="inner_wrapper" style="background: hsla(60, 100%, 50%,.2);">
+                <div class="inner_wrapper_txt">
+                    <h3>Smart Products</h3>
+                    <h1>Summer Offer <br> 2019 Collection</h1>
+                    <a href="#" class="shop_now_link">Shop Now</a>
+                </div>
+                <div class="inner_wrapper_img"> <img src="https://i.dlpng.com/static/png/241960_preview.png" alt="">
+                </div>
+            </div>
+            <label for="i2" class="prev">
+                <span></span><span></span>
+            </label>
+            <label for="i4" class="next">
+                <span></span><span></span>
+            </label>
+        </div>
+        <div class="slide_img" id="four">
+            <div class="inner_wrapper" style="background: hsla(328, 100%, 54%,.2);">
+                <div class="inner_wrapper_txt">
+                    <h3>Smart Products</h3>
+                    <h1>Summer Offer <br> 2019 Collection</h1>
+                    <a href="#" class="shop_now_link">Shop Now</a>
+                </div>
+                <div class="inner_wrapper_img"> <img src="http://www.reducstory.com/u3.png" alt=""> </div>
+            </div>
+            <label for="i3" class="prev">
+                <span></span><span></span>
+            </label>
+            <label for="i1" class="next">
+                <span></span><span></span>
+            </label>
+        </div>
+        <div id="nav_slide">
+            <label for="i1" class="dots" id="dot1"></label>
+            <label for="i2" class="dots" id="dot2"></label>
+            <label for="i3" class="dots" id="dot3"></label>
+            <label for="i4" class="dots" id="dot4"></label>
+        </div>
+    </section>
+    <!--...................................Section Daily Deals.....................-->
+    <section class="sec_daily_deals">
+        <!--............................Daily Deals Services.......................-->
+        <div class="sec_deals_service">
+            <div class="sec_deals_service_item">
+                <div class="ser_img"> <img src="image/support-1.png" alt=""></div>
+                <div class="ser_txt">
+                <h3>Free Shipping</h3>
+                <p>Free shipping on all order</p>
+            </div>
+            </div>
+            <div class="sec_deals_service_item">
+                    <div class="ser_img"> <img src="image/support-2.png" alt=""></div>
+                    <div class="ser_txt">
+                    <h3>Free Shipping</h3>
+                    <p>Free shipping on all order</p>
+                </div>
+            </div>
+            <div class="sec_deals_service_item">
+                    <div class="ser_img"> <img src="image/support-3.png" alt=""></div>
+                    <div class="ser_txt">
+                    <h3>Free Shipping</h3>
+                    <p>Free shipping on all order</p>
+                </div>
+            </div>
+            <div class="sec_deals_service_item">
+                    <div class="ser_img"> <img src="image/support-4.png" alt=""></div>
+                    <div class="ser_txt">
+                    <h3>Free Shipping</h3>
+                    <p>Free shipping on all order</p>
+                </div>
+            </div>
+        </div>
+        <!--.....................Daily Deals Item Menu..........................-->
+        <div class="sec_deal_menu">
+            <h1 class="h1_title">Daily Deals!</h1>
+            <div class="control_deal_item">
+                <a href="#">New Arrivals</a>
+                <a href="#">Best Sellers</a>
+                <a href="#">Sale Items</a>
+            </div>
+            <div class="sec_deal_item_wrapper">
+            <div class="sec_deal_item">
+                <div class="sec_deal_item_75">
+                    <span id="discount">-10%</span>
+                    <a href="#75_link" class="sec_deal_item_75_link"></a>
+                    <img class="img_1" src="image/pro-6.jpg" alt="">
+                    <img class="img_2" src="image/pro-6-1.jpg" alt="">
+                    <div class="bottom_bar">
+                        <a href="#" title="Wishlist" class="wishlist"><i class="far fa-heart"></i></a>
+                        <a href="#" title="Add To Cart" class="add_to_cart"> <i class="fas fa-shopping-cart"<i class="far fa-eye"></i> Add To Cart</a>
+                        <a href="#" title="Quick View" class="quick_view"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+               <div class="sec_item_beneath"> <a href="#" target="" title="T-shirt And Jeans" class="product_name">T-Shirt And Jeans</a>
+                
+                <div class="product_five_star">
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="product_price">$60.00 - <span style="text-decoration: line-through;
+                opacity: .5">$60.00</span></div>
+                </div>
+            </div>
+            <div class="sec_deal_item">
+                <div class="sec_deal_item_75">
+                    <span id="new">New</span>
+                    <a href="#75_link" class="sec_deal_item_75_link"></a>
+                    <img class="img_1" src="image/pro-5.jpg" alt="">
+                    <img class="img_2" src="image/pro-5-1.jpg" alt="">
+                    <div class="bottom_bar">
+                        <a href="#" title="Wishlist" class="wishlist"><i class="far fa-heart"></i></a>
+                        <a href="#" title="Add To Cart" class="add_to_cart"> <i class="fas fa-shopping-cart"<i class="far fa-eye"></i> Add To Cart</a>
+                        <a href="#" title="Quick View" class="quick_view"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+               <div class="sec_item_beneath"> <a href="#" target="" title="T-shirt And Jeans" class="product_name">T-Shirt And Jeans</a>
+                
+                <div class="product_five_star">
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="product_price">$60.00</div>
+                </div>
+            </div>
+            <div class="sec_deal_item">
+                <div class="sec_deal_item_75">
+                    <span id="discount">-10%</span>
+                    <a href="#75_link" class="sec_deal_item_75_link"></a>
+                    <img class="img_1" src="image/pro-4-1.jpg" alt="">
+                    <img class="img_2" src="image/pro-4.jpg" alt="">
+                    <div class="bottom_bar">
+                        <a href="#" title="Wishlist" class="wishlist"><i class="far fa-heart"></i></a>
+                        <a href="#" title="Add To Cart" class="add_to_cart"> <i class="fas fa-shopping-cart"<i class="far fa-eye"></i> Add To Cart</a>
+                        <a href="#" title="Quick View" class="quick_view"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+               <div class="sec_item_beneath"> <a href="#" target="" title="T-shirt And Jeans" class="product_name">T-Shirt And Jeans</a>
+                
+                <div class="product_five_star">
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="product_price">$60.00 - <span style="text-decoration: line-through;
+                opacity: .5">$60.00</span></div>
+                </div>
+            </div>
+            <div class="sec_deal_item">
+                <div class="sec_deal_item_75">
+                    <span id="new">New</span>
+                    <a href="#75_link" class="sec_deal_item_75_link"></a>
+                    <img class="img_1" src="image/pro-3-1.jpg" alt="">
+                    <img class="img_2" src="image/pro-3.jpg" alt="">
+                    <div class="bottom_bar">
+                        <a href="#" title="Wishlist" class="wishlist"><i class="far fa-heart"></i></a>
+                        <a href="#" title="Add To Cart" class="add_to_cart"> <i class="fas fa-shopping-cart"<i class="far fa-eye"></i> Add To Cart</a>
+                        <a href="#" title="Quick View" class="quick_view"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+               <div class="sec_item_beneath"> <a href="#" target="" title="T-shirt And Jeans" class="product_name">T-Shirt And Jeans</a>
+                
+                <div class="product_five_star">
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="product_price">$60.00</div>
+                </div>
+            </div>
+            <div class="sec_deal_item">
+                <div class="sec_deal_item_75">
+                    <span id="discount">-10%</span>
+                    <a href="#75_link" class="sec_deal_item_75_link"></a>
+                    <img class="img_1" src="image/pro-2-1.jpg" alt="">
+                    <img class="img_2" src="image/pro-2.jpg" alt="">
+                    <div class="bottom_bar">
+                        <a href="#" title="Wishlist" class="wishlist"><i class="far fa-heart"></i></a>
+                        <a href="#" title="Add To Cart" class="add_to_cart"> <i class="fas fa-shopping-cart"<i class="far fa-eye"></i> Add To Cart</a>
+                        <a href="#" title="Quick View" class="quick_view"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+               <div class="sec_item_beneath"> <a href="#" target="" title="T-shirt And Jeans" class="product_name">T-Shirt And Jeans</a>
+                
+                <div class="product_five_star">
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="product_price">$60.00 - <span style="text-decoration: line-through;
+                opacity: .5">$60.00</span></div>
+                </div>
+            </div>
+            <div class="sec_deal_item">
+                <div class="sec_deal_item_75">
+                    <span id="new">New</span>
+                    <a href="#75_link" class="sec_deal_item_75_link"></a>
+                    <img class="img_1" src="image/pro-1-1.jpg" alt="">
+                    <img class="img_2" src="image/pro-1.jpg" alt="">
+                    <div class="bottom_bar">
+                        <a href="#" title="Wishlist" class="wishlist"><i class="far fa-heart"></i></a>
+                        <a href="#" title="Add To Cart" class="add_to_cart"> <i class="fas fa-shopping-cart"<i class="far fa-eye"></i> Add To Cart</a>
+                        <a href="#" title="Quick View" class="quick_view"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+               <div class="sec_item_beneath"> <a href="#" target="" title="T-shirt And Jeans" class="product_name">T-Shirt And Jeans</a>
+                
+                <div class="product_five_star">
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="product_price">$60.00</div>
+                </div>
+            </div>
+            <!--......................Extra Deal Wrapper...................-->
+            <div class="sec_deal_wrapper_extra">
+            <div class="sec_deal_item sec_deal_item_extra">
+                <div class="sec_deal_item_75">
+                    <span id="discount">-10%</span>
+                    <a href="#75_link" class="sec_deal_item_75_link"></a>
+                    <img class="img_1" src="image/pro-8.jpg" alt="">
+                    <img class="img_2" src="image/pro-6.jpg" alt="">
+                    <div class="bottom_bar">
+                        <a href="#" title="Wishlist" class="wishlist"><i class="far fa-heart"></i></a>
+                        <a href="#" title="Add To Cart" class="add_to_cart"> <i class="fas fa-shopping-cart"<i class="far fa-eye"></i> Add To Cart</a>
+                        <a href="#" title="Quick View" class="quick_view"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+               <div class="sec_item_beneath"> <a href="#" target="" title="T-shirt And Jeans" class="product_name">T-Shirt And Jeans</a>
+                
+                <div class="product_five_star">
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="product_price">$60.00 - <span style="text-decoration: line-through;
+                opacity: .5">$60.00</span></div>
+                </div>
+            </div>
+            <div class="sec_deal_item">
+                <div class="sec_deal_item_75">
+                    <span id="new">New</span>
+                    <a href="#75_link" class="sec_deal_item_75_link"></a>
+                    <img class="img_1" src="image/pro-7.jpg" alt="">
+                    <img class="img_2" src="image/pro-4-1.jpg" alt="">
+                    <div class="bottom_bar">
+                        <a href="#" title="Wishlist" class="wishlist"><i class="far fa-heart"></i></a>
+                        <a href="#" title="Add To Cart" class="add_to_cart"> <i class="fas fa-shopping-cart"<i class="far fa-eye"></i> Add To Cart</a>
+                        <a href="#" title="Quick View" class="quick_view"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+               <div class="sec_item_beneath"> <a href="#" target="" title="T-shirt And Jeans" class="product_name">T-Shirt And Jeans</a>
+                
+                <div class="product_five_star">
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="color far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="product_price">$60.00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </section>
+    <!--.................................Section Our Blog.....................-->
+    <section class="sec_our_blog">
+        <h1 class="sec_our_blog_title">our blog</h1>
+        <div class="sec_our_blog_item_wrapper">
+        <div class="sec_our_blog_item">
+           <div class="img_wrapper">
+               <span>Lifestyle</span> <a href="#"> <img src="image/blog-1.jpg" alt="">
+            </a>
+            </div> 
+            <div class="beneath_txt">
+            <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                 accusantium.</a>
+            <div class="by_admin"><span>By Shop</span><a href="#">Admin</a></div>
+            </div>
+        </div>
+        <div class="sec_our_blog_item">
+           <div class="img_wrapper">
+               <span id="other">Lifestyle</span> <a href="#"> <img src="image/blog-2.jpg" alt="">
+            </a>
+            </div> 
+            <div class="beneath_txt">
+            <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                 accusantium.</a>
+            <div class="by_admin"><span>By Shop</span><a href="#">Admin</a></div>
+            </div>
+        </div>
+        <div class="sec_our_blog_item">
+           <div class="img_wrapper">
+               <span>Lifestyle</span> <a href="#blog-3"> <img src="image/blog-3.jpg" alt="">
+            </a>
+            </div> 
+            <div class="beneath_txt">
+            <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                 accusantium.</a>
+            <div class="by_admin"><span>By Shop</span><a href="#">Admin</a></div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--.....................................Footer...........................-->
+    <footer>
+        <div class="footer_item footer_item_first not_item">
+           <a href="#"> <img src="image/logo.png" alt=""> </a>
+            <p>
+                   &copy; 2019 Flone.
+                    All Rights Reserved
+            </p>
+        </div>
+        <div class="footer_item footer_item_second">
+            <h4>about us</h4>
+            <a href="#">About Us</a>
+            <a href="#">Share location</a>
+            <a href="#">Contact</a>
+            <a href="#">Orders tracking</a>
+
+        </div>
+        <div class="footer_item footer_item_third">
+            <h4>useful links</h4>
+            <a href="#">Return</a>
+            <a href="#">Support Policy </a>
+            <a href="#">Size guide</a>
+            <a href="#">FAQs</a>
+
+        </div>
+        <div class="footer_item footer_item_fourth">
+            <h4>follow us</h4>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instargram</a>
+            <a href="#">Youtube</a>
+
+        </div>
+        <div class="footer_item footer_item_fifth">
+            <h4>subscribe</h4>
+            <p>Get E-mail updates about our latest shop and special offers.</p>
+            <input type="email" placeholder="Enter Your Email Address">
+            <button type="submit">Subscribe</button>
+        </div>
+        <div class="designer">Design By<a target="_blank" href="http://dribbble.com/nikhilroy2">Nikhil Roy</a></div>
+    </footer>
+</body>
+
+</html>
